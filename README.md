@@ -43,4 +43,14 @@ static void daire(double r)
     }
 }
 
+```
+
+# Algoritma
+```
+static string Algoritma(string word)
+{
+    string[] arr = word.Split(",");
+    return arr[0].Remove(Convert.ToInt16(arr[1]),1);
+}
+
 ``` 
